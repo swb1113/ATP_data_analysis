@@ -8,22 +8,6 @@ path = "C:\Program Files (x86)\chromedriver"
 driver = webdriver.Chrome(path)
 driver.get(website_stat)
 
-""" rows = driver.find_elements_by_tag_name('tr')
-
-stat_name = []
-stat_info = []
-
-for stat in rows:
-    stat_name.append(stat.find_element_by_xpath('./td').text)
-    stat_info.append(stat.find_element_by_xpath('./th[@class="text-right pct-data"]').text)
-
-driver.quit()
-
-print(stat_name)
-print(stat_info) """
-
-
-# NOT EFFICIENT, VERY SLOW, POSSIBLE TO USE ONE FOR LOOP? NOT HAVING TO USE REMOVE
 stat_name = []
 stat_info = []
 
