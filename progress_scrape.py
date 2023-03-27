@@ -3,37 +3,6 @@ from selenium.webdriver.support.ui import Select
 import pandas as pd
 import time
 
-""" website = "https://www.ultimatetennisstatistics.com/playerProfile?playerId=4920&tab=profile"
-path = "C:\Program Files (x86)\chromedriver"
-driver = webdriver.Chrome(path)
-driver.get(website)
-
-category = []
-info = []
-
-website = website[:-7]
-driver.quit()
-print(website)
-
-website_stat = website + str("statistics")
-print(website_stat)
-
-driver.get(website_stat)
-
-stat_n = driver.find_elements_by_tag_name('td')
-stat_i = driver.find_elements_by_tag_name('th')
-
-for n in stat_n:
-    category.append(n.text)
-
-for i in stat_i:
-    info.append(i.text)
-
-driver.quit()
-
-print(category)
-print(info) """
-
 website = "https://www.ultimatetennisstatistics.com/playerProfile?playerId=4920&tab=profile"
 path = "C:\Program Files (x86)\chromedriver"
 driver = webdriver.Chrome(path)
