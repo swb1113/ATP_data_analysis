@@ -62,11 +62,3 @@ def atp_scraper(profile_site, file_name):
 
     #print(df)
 
-
-
-# 1. SCRAPE STAT SECTION --> COMPLETED
-# 2. METHOD TO STORE DATA (LONG/WIDE, HOW TO ORGANIZE DATA) --> COMPLETED
-# 3. TURN INTO CSV FILE --> COMPLETED 
-# 4. TURN INTO FUNCTION --> COMPLETED
-# 5. SYSTEMATICALLY SCRAPE THE TOP 100 (I CAN DO IT MANUALLY, OR TRY TO FIND AUTOMATIC WAY)
-# 6. CLEAN THE DATA --> there is problem with players w/o h2h bar/percentage --> last appearance placed in grass, shifted up (e.g. last appearance --> overall, overall --> hard)
