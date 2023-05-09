@@ -11,4 +11,4 @@ Skills involved: Web Scraping, Data Cleaning, Data Analysis.
 **Folder containing data of top 100**: [atp_players](https://github.com/swb1113/ATP_data_analysis/tree/master/atp_players)  
 **Data cleaning**: [atp_cleaning.ipynb](https://github.com/swb1113/ATP_data_analysis/blob/master/atp_cleaning.ipynb)  
 **Cleaned data files in CSV and JSON**: [atp_cleaning_5.csv](https://github.com/swb1113/ATP_data_analysis/blob/master/atp_cleaning_5.csv), [atp_cleaning_5.json](https://github.com/swb1113/ATP_data_analysis/blob/master/atp_cleaning_5.json)  
-**Exploratory Data Analysis of ATP players**: [ATP_players_analysis.ipynb](https://github.com/swb1113/ATP_data_analysis/blob/master/ATP_players_analysis.ipynb)
+**Data Analysis of ATP players**: [ATP_players_analysis.ipynb](https://github.com/swb1113/ATP_data_analysis/blob/master/ATP_players_analysis.ipynb)
